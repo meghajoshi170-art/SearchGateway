@@ -7,7 +7,7 @@ Resources:
     Properties:
       Handler: search_page.lambda_handler
       Runtime: python3.9
-      CodeUri: .
+      CodeUri: s3://lambdaoutputbucket-556174328764/SearchGateway/SearchGateway.zip
       Description: ''
       MemorySize: 128
       Timeout: 300
